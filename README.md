@@ -20,39 +20,36 @@ composer install
 
 ```
 npm install
-``
+```
 
 ### copy .env.example file
 
 ```
-
 cp .env.example .env
-
 ```
 
 ### generate laravel app key
 
 ```
-
 php artisan key:generate
+```
 
+### Run migration for database
+
+```
+php artisan migrate
 ```
 
 ### Run Laravel Project
 
 ```
-
 php artisan serve
-
 ```
 
 ### run npm
 
 ```
-
 npm run dev
-
 ```
 
 and enjoy the project
-```
