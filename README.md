@@ -16,28 +16,43 @@ git clone [project_url]
 composer install
 ```
 
+### install nodejs
+
+```
+npm install
+``
+
 ### copy .env.example file
 
 ```
+
 cp .env.example .env
+
 ```
 
 ### generate laravel app key
 
 ```
+
 php artisan key:generate
+
 ```
 
 ### Run Laravel Project
 
 ```
+
 php artisan serve
+
 ```
 
 ### run npm
 
 ```
+
 npm run dev
+
 ```
 
 and enjoy the project
+```
